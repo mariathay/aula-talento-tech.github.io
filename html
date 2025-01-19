@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html>
-
 <body>
 
-    <h2>Date Field Restrictions</h2>
+<h2>Email Field</h2>
 
-    <p>Use the min and max attributes to add restrictions to dates:</p>
+<p>The <strong>input type="email"</strong> is used for input fields that should contain an e-mail address:</p>
 
-    <form action="/action_page.php">
-        <label for="datemin">Enter a data que nasceu:</label>
-        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+<form action="/action_page.php">
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+  <input type="submit" value="Submit">
+</form>
 
-        <label for="datemax">Enter a data atualmente:</label>
-        <input type="date" id="datemax" name="datemax" max="2025-12-31"><br><br>
-
-        <input type="submit" value="confirmar">
-    </form>
 </body>
-
 </html>
